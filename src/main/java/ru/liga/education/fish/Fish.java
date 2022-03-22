@@ -9,8 +9,6 @@ public abstract class Fish extends Vertebrates implements Swimable {
 
     public void info(){
         System.out.print(" - " + name);
-        System.out.print(" - ");
         numberOfVertebrae(vertebrates);
-        System.out.print(" - ");
     }
 }

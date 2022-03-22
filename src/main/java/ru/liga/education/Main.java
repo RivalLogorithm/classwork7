@@ -4,7 +4,10 @@ import ru.liga.education.bird.Albatross;
 import ru.liga.education.bird.Seagull;
 import ru.liga.education.fish.Moray;
 import ru.liga.education.fish.Shark;
-import ru.liga.education.mammal.Human;
+import ru.liga.education.mammal.Dolphin;
+import ru.liga.education.mammal.FourLegs.Dog;
+import ru.liga.education.mammal.TwoLegs.Human;
+import ru.liga.education.reptile.Dragon;
 import ru.liga.education.reptile.Iguana;
 
 public class Main {
@@ -28,5 +31,13 @@ public class Main {
 		Shark shark = new Shark();
 		shark.info();
 
+		Dolphin dolphin = new Dolphin();
+		dolphin.info();
+
+		Dog dog = new Dog();
+		dog.info();
+
+		Dragon dragon = new Dragon();
+		dragon.info();
 	}
 }

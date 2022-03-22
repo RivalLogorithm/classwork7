@@ -1,22 +1,21 @@
 package ru.liga.education.bird;
 
 import ru.liga.education.Flyable;
+import ru.liga.education.LayEggs;
 import ru.liga.education.Vertebrates;
 
-public class Bird extends Vertebrates implements Flyable {
+public abstract class Bird extends Vertebrates implements Flyable, LayEggs {
     public static final String name = "Птицы";
     public static final int vertebrates = 45;
 
     public void info(){
         System.out.print(" - " + name);
-        System.out.print(" - ");
         numberOfVertebrae(vertebrates);
-        System.out.print(" - ");
+        layEggs();
     }
 
     @Override
     public void flyBy() {
-        System.out.print("Умеет летать ");
-        System.out.print("с помощью взмаха крыльев");
+        System.out.print(" - Умеет летать с помощью взмаха крыльев");
     }
 }
