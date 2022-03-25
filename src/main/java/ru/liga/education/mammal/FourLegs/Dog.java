@@ -6,7 +6,5 @@ public class Dog extends FourLegs {
     @Override
     public void info(){
         System.out.print(name);
-        super.info();
-        System.out.println();
     }
 }

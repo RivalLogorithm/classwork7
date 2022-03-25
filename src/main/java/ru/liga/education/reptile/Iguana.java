@@ -9,8 +9,5 @@ public class Iguana extends Reptile implements LayEggs {
     @Override
     public void info() {
         System.out.print(name);
-        super.info();
-        layEggs();
-        System.out.println();
     }
 }

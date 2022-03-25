@@ -9,10 +9,6 @@ public class Moray extends Fish implements LayEggs {
     @Override
     public void info(){
         System.out.print(name);
-        super.info();
-        layEggs();
-        swimBy();
-        System.out.println();
     }
     @Override
     public void swimBy() {

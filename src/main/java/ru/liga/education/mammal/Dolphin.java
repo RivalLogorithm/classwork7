@@ -8,9 +8,6 @@ public class Dolphin extends Mammal implements Swimable {
     @Override
     public void info() {
         System.out.print(name);
-        super.info();
-        swimBy();
-        System.out.println();
     }
 
     @Override

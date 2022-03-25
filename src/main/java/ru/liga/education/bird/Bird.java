@@ -8,11 +8,7 @@ public abstract class Bird extends Vertebrates implements Flyable, LayEggs {
     public static final String name = "Птицы";
     public static final int vertebrates = 45;
 
-    public void info(){
-        System.out.print(" - " + name);
-        numberOfVertebrae(vertebrates);
-        layEggs();
-    }
+    public abstract void info();
 
     @Override
     public void flyBy() {

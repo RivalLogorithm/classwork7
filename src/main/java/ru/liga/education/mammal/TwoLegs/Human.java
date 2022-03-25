@@ -6,7 +6,5 @@ public class Human extends TwoLegs {
     @Override
     public void info(){
         System.out.print(name);
-        super.info();
-        System.out.println();
     }
 }

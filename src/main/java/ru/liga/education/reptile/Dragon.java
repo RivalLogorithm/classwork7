@@ -9,10 +9,6 @@ public class Dragon extends Reptile implements Flyable, DropTail {
     @Override
     public void info() {
         System.out.print(name);
-        super.info();
-        flyBy();
-        dropTail();
-        System.out.println();
     }
 
     @Override

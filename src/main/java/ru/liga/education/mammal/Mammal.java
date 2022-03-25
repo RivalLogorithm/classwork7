@@ -7,8 +7,5 @@ public abstract class Mammal extends Vertebrates {
     public static final int vertebrates = 32;
 
 
-    public void info() {
-        System.out.print(" - " + name);
-        numberOfVertebrae(vertebrates);
-    }
+    public abstract void info();
 }

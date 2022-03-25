@@ -13,31 +13,32 @@ import ru.liga.education.reptile.Iguana;
 public class Main {
 
 	public static void main(String[] args) {
-		Human human = new Human();
-		human.info();
-
-		Iguana iguana = new Iguana();
-		iguana.info();
-
-		Seagull seagull = new Seagull();
-		seagull.info();
-
-		Albatross albatross = new Albatross();
-		albatross.info();
-
-		Moray moray = new Moray();
-		moray.info();
-
-		Shark shark = new Shark();
-		shark.info();
-
-		Dolphin dolphin = new Dolphin();
-		dolphin.info();
-
-		Dog dog = new Dog();
-		dog.info();
-
-		Dragon dragon = new Dragon();
-		dragon.info();
+		Vertebrates.printAnimalInfo(
+				new Human(),
+				new Iguana(),
+				new Seagull(),
+				new Albatross(),
+				new Moray(),
+				new Shark(),
+				new Dolphin(),
+				new Dog(),
+				new Dragon());
+//		Human human = new Human();
+//
+//		Iguana iguana = new Iguana();
+//
+//		Seagull seagull = new Seagull();
+//
+//		Albatross albatross = new Albatross();
+//
+//		Moray moray = new Moray();
+//
+//		Shark shark = new Shark();
+//
+//		Dolphin dolphin = new Dolphin();
+//
+//		Dog dog = new Dog();
+//
+//		Dragon dragon = new Dragon();
 	}
 }

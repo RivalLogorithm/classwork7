@@ -6,8 +6,5 @@ public class Albatross extends Bird{
     @Override
     public void info(){
         System.out.print(name);
-        super.info();
-        flyBy();
-        System.out.println();
     }
 }
